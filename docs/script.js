@@ -48,7 +48,7 @@ var rand=0;
 						
 
 						console.log(quoteArr+" "+prevCount);
-						if(prevCount < 0 )
+						if(prevCount <= 0 )
 						{
 							prevCount = clickCount;
 						}
