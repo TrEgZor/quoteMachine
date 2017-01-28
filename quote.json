@@ -1,0 +1,140 @@
+[{
+		"id": 1,
+		"text":"It has become appallingly obvious that our technology has exceeded our humanity.",
+		"author":"Alber Einstein",
+		"imgLink":"http://www.waynejagoe.com/wp-content/uploads/2014/12/Albert-Einstein-HD.jpg",
+		"altText":"Albert Einstein"
+	},
+	{
+		"id":2,
+		"text":"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+		"author":"Bill Gates",
+		"imgLink":"http://ncmedia.azureedge.net/ncmedia/2014/09/gates_print.jpg",
+		"altText":"Bill Gates"
+	},
+	{
+		"id":3,
+		"text":"Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+		"author":"Steve Jobs",
+		"imgLink":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/09/06/15/stevejobs.jpg",
+		"altText":"Steve Jobs"
+	},
+	{
+		"id":4,
+		"text":"Bill Gates is a very rich man today... and do you want to know why? The answer is one word: versions.",
+		"author":"Dave Barry",
+		"imgLink":"http://thegroomingguide.com/wp-content/uploads/Screen-Shot-2015-04-29-at-14.02.26-689x400.png",
+		"altText":"Dave Barry"
+	},
+	{
+		"id":5,
+		"text":"An investment in knowledge pays the best interest.",
+		"author":"Benjamin Franklin",
+		"imgLink":"http://www.americaslibrary.gov/assets/aa/franklinb/aa_franklinb_subj_e.jpg",
+		"altText":"Benjamin Franklin"
+	},
+	{
+		"id":6,
+		"text":"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+		"author":"Helen Keller",
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Helen_KellerA.jpg/220px-Helen_KellerA.jpg",
+		"altText":"Helen Keller"
+	},
+	{
+		"id":7,
+		"text":"Tough times never last, but tough people do.",
+		"author":"Robert H. Schuller",
+		"imgLink":"https://bummyla.files.wordpress.com/2015/04/dc483ac9cf0b7b0e720f6a706700e1a4.jpg",
+		"altText":"Robert H. Schuller"
+	},
+	{
+		"id":8,
+		"text":" A man can be as great as he wants to be. If you believe in yourself and have the courage, the determination, the dedication, the competitive drive and if you are willing to sacrifice the little things in life and pay the price for the things that are worthwhile, it can be done",
+		"author":"Vince Lombardi",
+		"imgLink":"http://a5.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,h_1200,q_80,w_1200/MTE1ODA0OTcxNzAzNDM2ODEz.jpg",
+		"altText":"Vince Lombardi"
+	},
+	{
+		"id":9,
+		"text":"Every great story on the planet happened when someone decided not to give up, but kept going no matter what.",
+		"author":"Spryte Loriano",
+		"imgLink":"https://spryteloriano.files.wordpress.com/2012/12/img_3308.jpg",
+		"altText":"Spryte Loriano"
+	},
+	{
+		"id":10,
+		"text":"Success… seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit",
+		"author":"Conrad Hilton",
+		"imgLink":"http://www.famous-entrepreneurs.com/images/conrad-hilton.jpg",
+		"altText":"Conrad Hilton"
+	},
+	{
+		"id":11,
+		"text":"Successful people do what unsuccessful people are not willing to do. Don’t wish it were easier, wish you were better.",
+		"author":"Jim Rohn",
+		"imgLink":"http://www.success2016.de/images/speaker-main-img-jrohn.png",
+		"altText":"Jim Rohn"
+	},
+	{
+		"id":12,
+		"text":"It does not matter how slowly you go, so long as you do not stop.",
+		"author":"Confucius",
+		"imgLink":"https://jrbenjamin.files.wordpress.com/2014/03/confucius.jpg",
+		"altText":"Confucius"
+	},
+	{
+		"id":13,
+		"text":"Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.",
+		"author":"Mark Twain",
+		"imgLink":"http://a4.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,h_1200,q_80,w_1200/MTE5NDg0MDU1MTUzNTA5OTAz.jpg",
+		"altText":"Mark Twain"
+	},
+	{
+		"id":14,
+		"text":"You don’t have to be great to start, but you have to start to be great.",
+		"author":"Zig Ziglar",
+		"imgLink":"http://empoweringsmallbiz.com/wp-content/uploads/2014/06/zig-ziglar-headshot.jpg",
+		"altText":"Zig Ziglar"
+	},
+	{
+		"id":15,
+		"text":"Expect problems and eat them for breakfast",
+		"author":"Alfred A. Montapert",
+		"imgLink":"http://www.corporaterain.com/blog/wp-content/uploads/2015/02/Alfred-Armand-Louis-Marie_Velpeau.jpg",
+		"altText":"Alfred A. Montapert"
+	},
+	{
+		"id":16,
+		"text":"I do not have superior intelligence or faultless looks. I do not captivate a room or run a mile under six minutes. I only succeeded because I was still working after everyone else went to sleep.",
+		"author":"Greg Evans",
+		"imgLink":"http://www.applesandpearsentertainment.com.au/wp-content/uploads/2014/10/greeg.jpg",
+		"altText":"Greg Evans"
+	},
+	{
+		"id":17,
+		"text":"Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+		"author":"Dalai Lama",
+		"imgLink":"https://pbs.twimg.com/profile_images/529214699041067008/fqPBAr5s.jpeg",
+		"altText":"Dalai Lama"
+	},
+	{
+		"id":18,
+		"text":"Don’t watch the clock; do what it does. Keep going",
+		"author":"Sam Levenson",
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Samlevenson.jpg/220px-Samlevenson.jpg",
+		"altText":"Sam Levenson"
+	},
+	{
+		"id":19,
+		"text":" I have not failed. I’ve just found 10,000 ways that won’t work.",
+		"author":"Thomas A. Edison",
+		"imgLink":"http://a1.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwNTEzMDA0MDQ2.jpg",
+		"altText":"Thomas A. Edison"
+	},
+		{
+		"id":20,
+		"text":"There will be obstacles. There will be doubters. There will be mistakes. But with hard work, there are no limits.",
+		"author":"Michael Phelps",
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/220px-Michael_Phelps_Rio_Olympics_2016.jpg",
+		"altText":"Michael Phelps"
+	}]

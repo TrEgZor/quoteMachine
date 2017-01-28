@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Qutoes machine</title>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<!--Script -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Style -->
+	<style>
+	body{
+		background-color: silver;
+		font-family: 'Raleway';
+		background-color: #9686a8;
+	}
+		.content{
+			
+			width: 80%;
+			margin: auto;
+			text-align: center;
+		}
+		.quote-content{
+			border-radius:10%;
+			color:white;
+			width: 80%;
+
+			border:2px solid blue;
+			margin:20px  auto;
+			padding: 20px;
+			background-color: #1a00af;
+			}
+			#previous{
+				display: none;
+			}
+			.authorImg{
+				width: 250px;
+				border-radius: 50%;
+				display: inline;
+				border:1px solid silver;
+
+			}
+			p{
+				font-size: 25px;
+				text-align: justify;
+			}
+			#author{
+				font-weight: 600;
+				font-size: 19px;
+			}
+					
+	</style>
+	<script>
+		var rand=0;
+		var randBefore =rand;
+		var clickCount = 0;
+		var quoteArr = [];
+		var prevCount ;
+		$(document).ready(function(){
+			
+			$("#quoteBtn").on("click",function(){
+					$.getJSON("quote.json",function(json){
+						var html="";
+						while(randBefore == rand){    
+						rand = Math.floor(Math.random()*json.length-1)+1;
+						if(rand === 0 || rand > 20 ){rand = 1;}
+						};
+						randBefore = rand;
+						clickCount++;
+						if(clickCount == 1){
+							randBefore = rand;
+							$("#previous").css("display","inline");
+						}
+						quoteArr.push(randBefore);
+						
+						
+						
+						
+						json = json.filter(function(val){
+							return val.id == rand;
+						});
+						console.log(rand);
+						json.forEach(function(val){
+							html += "<div class='quote'>";
+							html +="<div class='row'>";
+							html +="<div class='col-xs-6'>"
+							html +="<img class='img-responsive authorImg' src='"+val.imgLink+"' alt='"+val.altText+"'></div>";
+							html +="<div class='col-xs-6'>";
+							html +="<p>\""+val.text+"\"</p>";
+							html +="<p id='author'>"+val.author+"</p></div></div>";
+							html +="</div>";
+						});
+						$("#quoteField").html(html);
+						prevCount = clickCount-1;
+						});
+					
+
+			});
+			$("#previous").on("click",function(){
+					$.getJSON("quote.json",function(json){
+						var html="";
+						
+
+						console.log(quoteArr+" "+prevCount);
+						if(prevCount < 0 )
+						{
+							prevCount = clickCount;
+						}
+						var prev = quoteArr[(prevCount-1)];
+
+						prevCount--;
+						
+
+						json = json.filter(function(val){
+							return val.id == prev;
+						});
+												json.forEach(function(val){
+							html += "<div class='quote'>";
+							html +="<div class='row'>";
+							html +="<div class='col-xs-6'>"
+							html +="<img class='img-responsive authorImg' src='"+val.imgLink+"' alt='"+val.altText+"'></div>";
+							
+							html +="<div class='col-xs-6'>";
+							html +="<p>\""+val.text+"\"</p>";
+							html +="<p id='author'>"+val.author+"</p></div></div>";
+							html +="</div>";
+						});
+						$("#quoteField").html(html);
+						
+
+					});
+					   });
+    
+});
+	</script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="content">
+		<div id="quoteField" class="quote-content">
+			<h2>This field contain a random quote.</h2>
+		</div>
+		<button id="quoteBtn" class="btn-primary btn">Give me a Quote</button>
+		<button id="previous" class="btn-info btn">Previous</button>
+	</div>
+</div>	
+
+
+
+</body>
+</html>
